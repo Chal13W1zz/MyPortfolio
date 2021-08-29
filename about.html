@@ -255,6 +255,12 @@
                 <div class="text-center"><button type="submit" onclick="sendMail(); return false">Send Message</button></div>
               </form>
 
+              <script>
+                function sendMail() {
+                    var link = "mailto:chaliewizz4@gmail.com" + "?cc=" + escape(document.getElementById('email').value) + "&subject=" + escape(document.getElementById('subject').value) + "&body=" + escape(document.getElementById('message').value) + "Yours Faithfully" + escape(document.getElementById('name').value);
+                
+                    window.location.assign(link);
+                }</script>
 
 
   
