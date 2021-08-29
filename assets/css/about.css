@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 * {
-    font-family: 'Poppins', sans-serif;
+    font-family: sans-serif;
     color: #DFFFFE;
 }
 
@@ -11,6 +11,7 @@ body {
 }
 
 a.logo{
+    font-family: 'Poppins';
     color: #DFFFFE;
     text-decoration: none;
     padding-left: 50px;
@@ -28,6 +29,7 @@ div.links{
 }
 
 a.nav-link{
+    font-family: 'Poppins';
     color: #DFFFFE;
 }
 
@@ -37,7 +39,12 @@ a.nav-link{
 }
 
 #st {
+    font-family: 'Poppins';
     color: red;
+}
+
+h2{
+    font-family: 'Poppins'
 }
 
 .content {
@@ -48,7 +55,23 @@ a.nav-link{
     color: red;
 }
 
+.tl a {
+    font-family: 'Poppins';
+    text-decoration: none;
+    color: red;
+}
+
+.tl a:hover {
+    background-color: blue;
+}
+
 #chalie {
     margin-right: 50px;
     border-radius: 100px;
+}
+
+#services {
+
+    color: red;
+    font-family: 'Poppins';
 }
