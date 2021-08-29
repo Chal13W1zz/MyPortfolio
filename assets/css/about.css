@@ -4,9 +4,10 @@
     color: #DFFFFE;
 }
 
-nav {
-    display:flex ;
-    justify-content: space-around;
+body {
+    background-image: url(../img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 a.logo{
@@ -30,4 +31,7 @@ a.nav-link{
     color: #DFFFFE;
 }
 
-
+.container-fluid {
+    background-color: #DFFFFE;
+    height: 100%;
+}
