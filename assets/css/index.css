@@ -63,11 +63,16 @@ a.nav-link {
   
 }
 
-a.nav-link:first-child {
-  margin-left: 0;
+#active {
   padding-left: 0;
+  color: red;
+}
+
+#active:hover {
+  padding-left: 16px;
 }
 
 a.nav-link:hover{
   color: red;
+  background-color: #DFFFFE;
 }
