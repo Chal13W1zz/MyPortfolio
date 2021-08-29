@@ -31,7 +31,24 @@ a.nav-link{
     color: #DFFFFE;
 }
 
-.container-fluid {
-    background-color: #DFFFFE;
-    height: 100%;
+.container {
+    margin-top: 30px;
+    background: rgba(6, 13, 21, 0.9);
+}
+
+#st {
+    color: red;
+}
+
+.content {
+    display: flex;
+}
+
+.tl {
+    color: red;
+}
+
+#chalie {
+    margin-right: 50px;
+    border-radius: 100px;
 }
