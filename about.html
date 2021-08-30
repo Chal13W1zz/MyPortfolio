@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="assets/img/favicon.jpg" rel="icon">
   <link rel="stylesheet" type="text/css" href="assets/bootstrap-5.1.0-dist/css/bootstrap.css">
   <link rel="stylesheet" href="assets/css/about.css">
   <title>Charles Muthii</title>
@@ -162,7 +163,7 @@
         </div>
 
 
-        <span id="services">Services</span>
+        <span class="services" id="services">Services</span>
         <ul class="list-group">
           <li class="list-group-item d-flex justify-content-between align-items-center">
             Web Scraping
@@ -208,12 +209,9 @@
       </div>
     </div>
 
-    <div class="hobbies">
-      <span id="st">Hobbies & Interests</span>
-    </div>
 
     <div class="work" id="work">
-      <span id="st">Work</span>
+      <center><span id="st">Work</span></center>
 
       <div class="row">
         <div class="col-sm-6">
@@ -235,7 +233,7 @@
         <div class="col-sm-6">
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">	APPLICATION SECURITY ENGINEER at Protec, A Cyber 1 Company (10 months)</h5>
+              <h5 class="card-title"> APPLICATION SECURITY ENGINEER at Protec, A Cyber 1 Company (10 months)</h5>
               <p class="card-text">
                 <ul>
                   <li>Android app Vulnerability Assessment and Penetration Testing</li>
@@ -252,6 +250,50 @@
 
     </div>
 
+  </div>
+
+  <center><span id="st">School Projects</span></center>
+  <div class="projects">
+
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/img/phototube.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">PhotoTube</h5>
+            <p class="card-text">A basic YouTube like website hosting fun facts, some history and interesting ideas.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Chal13W1zz/PhotoTube" class="btn btn-danger">View on Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/img/streetfood.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">StreetFood</h5>
+            <p class="card-text">A school project to reproduce a pure html and css landing page of a restaurants website
+              from a provided image design.</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Chal13W1zz/StreetFood" class="btn btn-danger">View on Github</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="assets/img/findx.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">FindX</h5>
+            <p class="card-text">PRE-PREP 21 Phone Security Dashboard Group Project</p>
+          </div>
+          <div class="card-footer">
+            <a href="https://github.com/Chal13W1zz/FindX" class="btn btn-danger">View on Github</a>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 
 
@@ -313,7 +355,8 @@
                 required></textarea>
             </div>
 
-            <div class="text-center"><button id="sbtn" type="submit" onclick="sendMail(); return false">Send Message</button>
+            <div class="text-center"><button id="sbtn" type="submit" onclick="sendMail(); return false">Send
+                Message</button>
             </div>
           </form>
 
@@ -322,7 +365,7 @@
               var link = "mailto:chaliewizz4@gmail.com" + "?cc=" + escape(document.getElementById('email').value) +
                 "&subject=" + escape(document.getElementById('subject').value) + "&body=" + escape(document
                   .getElementById('message').value) + "Yours Faithfully" + escape(document.getElementById('name')
-                .value);
+                  .value);
 
               window.location.assign(link);
             }
@@ -337,22 +380,35 @@
     </div>
     <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
     <script>
-mybutton = document.getElementById("myBtn");
+      mybutton = document.getElementById("myBtn");
 
-window.onscroll = function() {scrollFunction()};
+      window.onscroll = function () {
+        scrollFunction()
+      };
 
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
 
-function topFunction() {
-  document.documentElement.scrollTop = 0; 
-}
+      function topFunction() {
+        document.documentElement.scrollTop = 0;
+      }
     </script>
+
+
+    <footer id="footer">
+      <div class="container">
+        <h3>Charles Muthii</h3>
+        <p>Android For life :)</p>
+    
+        <div class="copyright">
+          &copy; Copyright <strong><span>Chalie</span></strong>. All Rights Reserved
+      </div>
+    </footer>
 
 
 </body>
