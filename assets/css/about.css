@@ -80,6 +80,10 @@ h2{
     font-family: 'Poppins';
 }
 
+#sbtn {
+    border-radius: 10px;
+    background-color: red;
+}
 #myBtn {
 
     position: fixed;
