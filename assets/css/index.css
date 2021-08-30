@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 
 * {
-    font-family: 'Poppins', sans-serif;
-    color: #DFFFFE;
+  font-family: 'Poppins', sans-serif;
+  color: #DFFFFE;
 }
 
 body {
-    background-image: url(../img/bg.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
+  background-image: url(../img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
 }
 
 #header {
@@ -29,12 +29,12 @@ h1 a:hover {
 }
 
 
-.container h1{
+.container h1 {
   font-size: 48px;
 }
 
-.container p{
-  font-size: 24px ;
+.container p {
+  font-size: 24px;
   font-family: sans-serif;
 }
 
@@ -55,12 +55,12 @@ h1 a:hover {
 }
 
 a.nav-link {
-    text-decoration: none;
-    font-family: 'Poppins';
-    font-size: 16px;
-    color: white;
-    display: flex;
-  
+  text-decoration: none;
+  font-family: 'Poppins';
+  font-size: 16px;
+  color: white;
+  display: flex;
+
 }
 
 #active {
@@ -72,7 +72,7 @@ a.nav-link {
   padding-left: 16px;
 }
 
-a.nav-link:hover{
+a.nav-link:hover {
   color: red;
   background-color: #DFFFFE;
 }
